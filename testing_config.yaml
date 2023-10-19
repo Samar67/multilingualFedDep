@@ -1,0 +1,45 @@
+testing_mode: "test_many_epochs_many_langs"  
+#Choose one of the following
+    # test_many_epochs_many_langs  #choose a data function that is a list
+    # test_one_epoch_many_langs  #sapecify the resume_epoch and choose one of the list data_functions
+    # test_one_epoch_one_lang   #specify the resume_epoch and choose a data_function that is NOT a list
+    # test_many_epochs_one_lang #choose a data_function that is NOT a list
+resume_dir: "/home/khalilss1/data1/paper_2/codes/results/allBlncd_lclSp_2/10Es"  
+#add path to model of you are to continue training from a saved model or testing.
+resume_epoch: "train-9.pth"       # model name (same as above)
+results_file: "res"
+model_name: "Twitter/twhin-bert-base"
+batch_size: 16
+data_func: "test_51kBlncd" 
+# Choose one of the following for if you want to test the five languages but with different experiments
+  # test_allEvDis       contains a list of the following ([read_ar_10k_data, read_ru_10k_data, read_en_1k_data, read_ko_1k_data, read_sp_2k_data])
+  # test_51kEvDis       contains a list of the following ([read_ar_1k_data, read_ru_1k_data, read_en_1k_data, read_ko_1k_data, read_sp_1k_data])
+  # test_51kUnEvDis     contains a list of the following ([read_ar_1k_unEvDis_data, read_ru_1k_unEvDis_data, read_en_1k_data, read_ko_1k_data, read_sp_1k_unEvDis_data])
+  # test_difQ_evDis     contains a list of the following ([read_ar_difQ_evDis_data, read_ru_difQ_evDis_data, read_en_difQ_evDis_data, read_ko_difQ_evDis_data, read_sp_difQ_evDis_data])
+  # test_difQ_unEvDis   contains a list of the following([read_ar_difQ_unEvDis_data, read_ru_difQ_unEvDis_data, read_en_difQ_unEvDis_data, read_ko_difQ_unEvDis_data, read_sp_difQ_unEvDis_data])
+#or Choose one of the following if you want to test one language or a centralized setting
+  # read_data       (All the original 5 datasets)
+  # read_51k_evDis_data     (1k of each lang - balanced)
+  # read_51k_unEvDis_data  (1k of each lang - Imbalanced)
+  # read_difQ_evDis_data    (Different Quantity of each lang - balanced)
+  # read_difQ_unEvDis_data  (Different Quantity of each lang - Imbalanced)
+  # read_ar_10k_data        (All the arabic data - balanced)
+  # read_ar_1k_data         (1k of balanced arabic)
+  # read_ar_1k_unEvDis_data (1k of Imbalanced arabic)
+  # read_ar_difQ_evDis_data (Diff Quat of balanced arabic)
+  # read_ru_10k_data        (All the russian data - balanced)
+  # read_ru_1k_data         (1k of balanced russian)
+  # read_ru_1k_unEvDis_data (1k of Imbalanced russian)
+  # read_ru_difQ_evDis_data (Diff Quat of balanced russian)
+  # read_ru_difQ_unEvDis_data   (Diff Quat of Imbalanced russian)
+  # read_en_1k_data     (All the english data (1k) - balanced)
+  # read_en_difQ_evDis_data     (Diff Quat of balanced english)
+  # read_en_difQ_unEvDis_data   (Diff Quat of Imbalanced english)
+  # read_ko_1k_data             (All the korean data (1k) - balanced)
+  # read_ko_difQ_evDis_data     (Diff Quat of balanced korean)
+  # read_ko_difQ_unEvDis_data   (Diff Quat of Imbalanced korean)
+  # read_sp_2k_data             (All the spanish data - balanced)
+  # read_sp_1k_data             (1k of balanced spanish)
+  # read_sp_1k_unEvDis_data     (1k of Imbalanced spanish)
+  # read_sp_difQ_evDis_data     (Diff Quat of balanced spanish)
+  # read_sp_difQ_unEvDis_data   (Diff Quat of Imbalanced spanish)

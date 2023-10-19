@@ -1,0 +1,16 @@
+resume_dir: ""          #default is "" #add path to model of you are to continue training from a saved model
+resume_epoch: ""        # model name (same as above)
+epochs: 1               #number of training epochs per clients
+clients_num: 5          #number of clients
+rounds: 2               #number of ferated averaging rounds
+model_name: "Twitter/twhin-bert-base"
+learning_rate: 5e-5
+batch_size: 16
+saving_folder_name: "trial_fed"         #where the trained model will be saving every epoch. Make sure it is unique each time
+data_function: "load_iid_data"          # Choose one of the following
+                                            # load_iid_data
+                                            # load_non_iid_data
+                                            # load_51k_evDis_non_iid_data
+                                            # load_51k_unEvDis_non_iid_data
+                                            # load_difQ_evDis_non_iid_data
+                                            # load_difQ_unEvDis_non_iid_data

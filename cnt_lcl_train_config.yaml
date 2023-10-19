@@ -1,0 +1,35 @@
+resume_dir: ""                      #default is "" #add path to model of you are to continue training from a saved model
+resume_epoch: ""                    #model name (same as above)
+epochs: 1                           #number of training epochs
+early_stopping_patience: 10         #in our case we trained all the models for 10 epochs so we did not use it.
+model_name: "Twitter/twhin-bert-base"
+learning_rate: 5e-5
+batch_size: 16
+saving_folder_name: "trial_two"     #where the trained model will be saving every epoch. Make sure it is unique each time
+data_function: "read_ar_1k_data" 
+# Choose one of the following
+  # read_data       (All the original 5 datasets)
+  # read_51k_evDis_data     (1k of each lang - balanced)
+  # read_51k_unEvDis_data  (1k of each lang - Imbalanced)
+  # read_difQ_evDis_data    (Different Quantity of each lang - balanced)
+  # read_difQ_unEvDis_data  (Different Quantity of each lang - Imbalanced)
+  # read_ar_10k_data        (All the arabic data - balanced)
+  # read_ar_1k_data         (1k of balanced arabic)
+  # read_ar_1k_unEvDis_data (1k of Imbalanced arabic)
+  # read_ar_difQ_evDis_data (Diff Quat of balanced arabic)
+  # read_ru_10k_data        (All the russian data - balanced)
+  # read_ru_1k_data         (1k of balanced russian)
+  # read_ru_1k_unEvDis_data (1k of Imbalanced russian)
+  # read_ru_difQ_evDis_data (Diff Quat of balanced russian)
+  # read_ru_difQ_unEvDis_data   (Diff Quat of Imbalanced russian)
+  # read_en_1k_data     (All the english data (1k) - balanced)
+  # read_en_difQ_evDis_data     (Diff Quat of balanced english)
+  # read_en_difQ_unEvDis_data   (Diff Quat of Imbalanced english)
+  # read_ko_1k_data             (All the korean data (1k) - balanced)
+  # read_ko_difQ_evDis_data     (Diff Quat of balanced korean)
+  # read_ko_difQ_unEvDis_data   (Diff Quat of Imbalanced korean)
+  # read_sp_2k_data             (All the spanish data - balanced)
+  # read_sp_1k_data             (1k of balanced spanish)
+  # read_sp_1k_unEvDis_data     (1k of Imbalanced spanish)
+  # read_sp_difQ_evDis_data     (Diff Quat of balanced spanish)
+  # read_sp_difQ_unEvDis_data   (Diff Quat of Imbalanced spanish)
