@@ -1,0 +1,189 @@
+aiohttp==3.8.5
+aiohttp-cors==0.7.0
+aiosignal==1.3.1
+alabaster @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/alabaster/alabaster-0.7.12
+appdirs @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/appdirs/appdirs-1.4.4
+asn1crypto @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/asn1crypto/asn1crypto-1.4.0
+async-timeout==4.0.3
+atomicwrites @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/atomicwrites/atomicwrites-1.4.0
+attrs @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/attrs/attrs-21.2.0
+Babel @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/Babel/Babel-2.9.1
+backports.entry-points-selectable @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/backportsentry_points_selectable/backports.entry_points_selectable-1.1.0
+backports.functools-lru-cache @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/backportsfunctools_lru_cache/backports.functools_lru_cache-1.6.4
+bcrypt @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/bcrypt/bcrypt-3.2.0
+bitstring @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/bitstring/bitstring-3.1.9
+blessed==1.20.0
+blist @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/blist/blist-1.3.6
+CacheControl @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/CacheControl/CacheControl-0.12.6
+cachetools==5.3.1
+cachy @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/cachy/cachy-0.3.0
+certifi @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/certifi/certifi-2021.5.30
+cffi @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/cffi/cffi-1.14.6
+chardet @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/chardet/chardet-4.0.0
+charset-normalizer @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/charsetnormalizer/charset-normalizer-2.0.4
+cleo @ file:///cm/shared/easybuild/GenuineIntel/sources/p/Python/extensions/cleo-0.8.1-py2.py3-none-any.whl
+click @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/click/click-8.0.1
+clikit @ file:///cm/shared/easybuild/GenuineIntel/sources/p/Python/extensions/clikit-0.6.2-py2.py3-none-any.whl
+cmake==3.27.2
+colorama @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/colorama/colorama-0.4.4
+colorful==0.5.5
+crashtest @ file:///cm/shared/easybuild/GenuineIntel/sources/p/Python/extensions/crashtest-0.3.1-py3-none-any.whl
+cryptography==41.0.3
+Cython @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/Cython/Cython-0.29.24
+datasets==2.14.4
+decorator @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/decorator/decorator-5.0.9
+dill==0.3.7
+distlib @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/distlib/distlib-0.3.2
+docopt @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/docopt/docopt-0.6.2
+docutils @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/docutils/docutils-0.17.1
+ecdsa @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/ecdsa/ecdsa-0.17.0
+evaluate==0.4.0
+filelock @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/filelock/filelock-3.0.12
+flit @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/flit/flit-3.3.0
+flit_core @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/flitcore/flit_core-3.3.0
+flwr==1.5.0
+frozenlist==1.4.0
+fsspec==2023.9.0
+future @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/future/future-0.18.2
+glob2 @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/glob2/glob2-0.7
+google-api-core==2.11.1
+google-auth==2.22.0
+googleapis-common-protos==1.60.0
+gpustat==1.1.1
+grpcio==1.57.0
+html5lib @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/html5lib/html5lib-1.1
+huggingface-hub==0.16.4
+idna @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/idna/idna-3.2
+imagesize @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/imagesize/imagesize-1.2.0
+importlib-metadata @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/importlib_metadata/importlib_metadata-4.6.3
+importlib-resources @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/importlib_resources/importlib_resources-5.2.2
+iniconfig @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/iniconfig/iniconfig-1.1.1
+intervaltree @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/intervaltree/intervaltree-3.1.0
+intreehooks @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/intreehooks/intreehooks-1.0
+ipaddress @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/ipaddress/ipaddress-1.0.23
+iterators==0.0.2
+jeepney @ file:///cm/shared/easybuild/GenuineIntel/sources/p/Python/extensions/jeepney-0.7.1-py3-none-any.whl
+Jinja2 @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/Jinja2/Jinja2-3.0.1
+joblib==1.3.2
+jsonschema @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/jsonschema/jsonschema-3.2.0
+keyring @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/keyring/keyring-21.2.0
+keyrings.alt @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/keyringsalt/keyrings.alt-4.1.0
+liac-arff @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/liacarff/liac-arff-2.5.0
+lit==16.0.6
+lockfile @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/lockfile/lockfile-0.12.2
+MarkupSafe @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/MarkupSafe/MarkupSafe-2.0.1
+mock @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/mock/mock-4.0.3
+more-itertools @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/moreitertools/more-itertools-8.8.0
+mpmath==1.3.0
+msgpack @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/msgpack/msgpack-1.0.2
+multidict==6.0.4
+multiprocess==0.70.15
+netaddr @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/netaddr/netaddr-0.8.0
+netifaces @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/netifaces/netifaces-0.11.0
+networkx==3.1
+nose @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/nose/nose-1.3.7
+numpy==1.25.2
+nvidia-cublas-cu11==11.10.3.66
+nvidia-cuda-cupti-cu11==11.7.101
+nvidia-cuda-nvrtc-cu11==11.7.99
+nvidia-cuda-runtime-cu11==11.7.99
+nvidia-cudnn-cu11==8.5.0.96
+nvidia-cufft-cu11==10.9.0.58
+nvidia-curand-cu11==10.2.10.91
+nvidia-cusolver-cu11==11.4.0.1
+nvidia-cusparse-cu11==11.7.4.91
+nvidia-ml-py==12.535.108
+nvidia-nccl-cu11==2.14.3
+nvidia-nvtx-cu11==11.7.91
+opencensus==0.11.2
+opencensus-context==0.1.3
+packaging @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/packaging/packaging-20.9
+pandas==2.1.0
+paramiko @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/paramiko/paramiko-2.7.2
+pastel @ file:///cm/shared/easybuild/GenuineIntel/sources/p/Python/extensions/pastel-0.2.1-py2.py3-none-any.whl
+pathlib2 @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pathlib2/pathlib2-2.3.6
+paycheck @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/paycheck/paycheck-1.0.2
+pbr @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pbr/pbr-5.6.0
+pexpect @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pexpect/pexpect-4.8.0
+pkginfo @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pkginfo/pkginfo-1.7.1
+platformdirs @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/platformdirs/platformdirs-2.2.0
+pluggy @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pluggy/pluggy-0.13.1
+poetry @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/poetry/poetry-1.1.7
+poetry-core @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/poetrycore/poetry-core-1.0.3
+prometheus-client==0.17.1
+protobuf==3.20.3
+psutil @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/psutil/psutil-5.8.0
+ptyprocess @ file:///cm/shared/easybuild/GenuineIntel/sources/p/Python/extensions/ptyprocess-0.7.0-py2.py3-none-any.whl
+py @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/py/py-1.10.0
+py-expression-eval @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/py_expression_eval/py_expression_eval-0.3.13
+py-spy==0.3.14
+pyarrow==13.0.0
+pyasn1 @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pyasn1/pyasn1-0.4.8
+pyasn1-modules==0.3.0
+pycparser @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pycparser/pycparser-2.20
+pycrypto @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pycrypto/pycrypto-2.6.1
+pycryptodome==3.18.0
+pydantic==1.10.12
+Pygments @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/Pygments/Pygments-2.9.0
+pylev @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pylev/pylev-1.4.0
+PyNaCl @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/PyNaCl/PyNaCl-1.4.0
+pyparsing @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pyparsing/pyparsing-2.4.7
+pyrsistent @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pyrsistent/pyrsistent-0.18.0
+pytest @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pytest/pytest-6.2.4
+python-dateutil @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pythondateutil/python-dateutil-2.8.2
+pytoml @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pytoml/pytoml-0.1.21
+pytz @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/pytz/pytz-2021.1
+PyYAML==6.0.1
+ray==2.6.3
+regex @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/regex/regex-2021.8.3
+requests @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/requests/requests-2.26.0
+requests-toolbelt @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/requeststoolbelt/requests-toolbelt-0.9.1
+responses==0.18.0
+rsa==4.9
+safetensors==0.3.3
+scandir @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/scandir/scandir-1.10.0
+scikit-learn==1.3.0
+scipy==1.11.2
+SecretStorage @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/SecretStorage/SecretStorage-3.3.1
+semantic-version @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/semantic_version/semantic_version-2.8.5
+setuptools-rust @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/setuptoolsrust/setuptools-rust-0.12.1
+setuptools-scm @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/setuptools_scm/setuptools_scm-6.0.1
+shellingham @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/shellingham/shellingham-1.4.0
+simplegeneric @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/simplegeneric/simplegeneric-0.8.1
+simplejson @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/simplejson/simplejson-3.17.3
+six @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/six/six-1.16.0
+smart-open==6.3.0
+snowballstemmer @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/snowballstemmer/snowballstemmer-2.1.0
+sortedcontainers @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sortedcontainers/sortedcontainers-2.4.0
+Sphinx @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/Sphinx/Sphinx-4.1.2
+sphinx-bootstrap-theme @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxbootstraptheme/sphinx-bootstrap-theme-0.7.1
+sphinxcontrib-applehelp @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxcontribapplehelp/sphinxcontrib-applehelp-1.0.2
+sphinxcontrib-devhelp @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxcontribdevhelp/sphinxcontrib-devhelp-1.0.2
+sphinxcontrib-htmlhelp @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxcontribhtmlhelp/sphinxcontrib-htmlhelp-2.0.0
+sphinxcontrib-jsmath @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxcontribjsmath/sphinxcontrib-jsmath-1.0.1
+sphinxcontrib-qthelp @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxcontribqthelp/sphinxcontrib-qthelp-1.0.3
+sphinxcontrib-serializinghtml @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxcontribserializinghtml/sphinxcontrib-serializinghtml-1.1.5
+sphinxcontrib-websupport @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/sphinxcontribwebsupport/sphinxcontrib-websupport-1.2.4
+sympy==1.12
+tabulate @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/tabulate/tabulate-0.8.9
+threadpoolctl @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/threadpoolctl/threadpoolctl-2.2.0
+tokenizers==0.13.3
+toml @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/toml/toml-0.10.2
+tomlkit @ file:///cm/shared/easybuild/GenuineIntel/sources/p/Python/extensions/tomlkit-0.7.2-py2.py3-none-any.whl
+torch==2.0.1
+tqdm==4.66.1
+transformers==4.32.1
+triton==2.0.0
+typing_extensions==4.7.1
+tzdata==2023.3
+ujson @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/ujson/ujson-4.0.2
+urllib3 @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/urllib3/urllib3-1.26.6
+virtualenv @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/virtualenv/virtualenv-20.7.0
+wcwidth @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/wcwidth/wcwidth-0.2.5
+webencodings @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/webencodings/webencodings-0.5.1
+xlrd @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/xlrd/xlrd-2.0.1
+xxhash==3.3.0
+yacs==0.1.8
+yarl==1.9.2
+zipfile36 @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/zipfile36/zipfile36-0.1.3
+zipp @ file:///cm/shared/easybuild/build/Python/3.9.6/GCCcore-11.2.0/zipp/zipp-3.5.0
