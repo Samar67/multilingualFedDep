@@ -15,8 +15,8 @@ The five datasets sources:
 4. Spanish: https://www.jmir.org/2019/6/e14199/ 
 5. Korean: https://www.nature.com/articles/s41599-022-01313-2#data-availability (twitter_Korean.csv)
 
-The two files required for creating the two environments are "fed_environment.txt" for the federated learning environment 
-and "cnt_lcl_environment.yml" for making the centralized/local learning environment. 
+The two files required for creating the two environments are "environment_fed.txt" for the federated learning environment 
+and "environment_cnt_lcl.yml" for making the centralized/local learning environment. 
 
 To run the code, you only need to set the parameters in each yaml file and run the corresponding python file. 
 For example, if I want to train a centralized or a local model on specific data, I would change the parameters in "cnt_lcl_train_config.yaml" save it, then run "cnt_lcl_train.py". An empty folder titled "results" in the code's directory must be created for the model to be saved.
