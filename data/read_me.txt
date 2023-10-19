@@ -1,7 +1,9 @@
-The three publicly avaiable dataset namely, Arabic, Russian and Korean are uploaded with the distribution 
+The three publicly available datasets, Arabic, Russian, and Korean, are uploaded with the distribution 
 used while developing our model. Only 10k records were used from the Russian dataset.
 
-Both English and Spanish are not publicly avaiable but can be obtained by contacting their providers.
+The python file data_proc_utils contains the functions used to process the data.
+
+English and Spanish datasets are not publicly available but can be obtained by contacting their providers.
 
 The five datasets sources:
 1. English: https://www.cs.jhu.edu/~mdredze/clpsych-2015-shared-task-evaluation/ 
