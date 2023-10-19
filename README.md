@@ -6,11 +6,8 @@ It explores the potential of applying federated learning on multilingual depress
 
 The three publicly available datasets, Arabic, Russian, and Korean, are uploaded with the distribution 
 used while developing our model. Only 10k records were used from the Russian dataset.
-
 The python file data_proc_utils in the data directory contains the functions used to process the data.
-
 English and Spanish datasets are not publicly available but can be obtained by contacting their providers.
-
 The five datasets sources:
 1. English: https://www.cs.jhu.edu/~mdredze/clpsych-2015-shared-task-evaluation/ 
 2. Arabic: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YHMYEQ
