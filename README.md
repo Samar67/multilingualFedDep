@@ -1,6 +1,6 @@
 # multilingualFedDep
 
-This is the repository for our unpublished paper "Towards Privacy-Conscious Multilingual Mental Health Analysis: A Federated Learning Perspective on Depression Detection". 
+This is the repository for our paper "Federated learning for privacy-preserving depression detection with multilingual language models in social media posts". 
 It explores the potential of applying federated learning on multilingual depressive data. The used publicly available data and the codes producing the results found in the paper are attached. Unfortunately, two of the used datasets are not open to the public, which means that the results cannot be repeated.
 
 
