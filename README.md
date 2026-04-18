@@ -9,11 +9,11 @@ used while developing our model. Only 10k records were used from the Russian dat
 The python file data_proc_utils in the data directory contains the functions used to process the data.
 English and Spanish datasets are not publicly available but can be obtained by contacting their providers.
 The five datasets sources:
-1. English: https://www.cs.jhu.edu/~mdredze/clpsych-2015-shared-task-evaluation/ 
-2. Arabic: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YHMYEQ
-3. Russian: https://data.mendeley.com/datasets/838dbcjpxb/1
-4. Spanish: https://www.jmir.org/2019/6/e14199/ 
-5. Korean: https://github.com/dxlabskku/Mental-Health/tree/main/data (twitter_Korean.csv)
+1. [English](https://www.cs.jhu.edu/~mdredze/clpsych-2015-shared-task-evaluation/) 
+2. [Arabic](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YHMYEQ)
+3. [Russian](https://data.mendeley.com/datasets/838dbcjpxb/1)
+4. [Spanish](https://www.jmir.org/2019/6/e14199/) 
+5. [Korean](https://github.com/dxlabskku/Mental-Health/tree/main/data) (twitter_Korean.csv)
 
 The two files required for creating the two environments are "environment_fed.txt" for the federated learning environment 
 and "environment_cnt_lcl.yml" for making the centralized/local learning environment. 
